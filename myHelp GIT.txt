@@ -4,6 +4,7 @@ git version
 Ctrg C : Cancelcd
 
 *****Создаем репозиторий на GitHub*****
+
 git bash here :правой кнопкой мыши в папке, где будет клон репозитория
 git clone *link* :ссылка с git hub repository
 cd *** :переходим в папку репозитория
@@ -20,9 +21,14 @@ git commit -m коммит с комментарий изменений
 git log
 git push
 
-git init инициализация папки репозитория
+
+*****Создаем репозиторий на локально в папке*****
+
+создаем новы репозиторий на github
+git cd : заходим в папку, где будет репозиторий
+git init :инициализация папки репозитория
 git add . все папки
 git commit -m "коммент"
-git branch -M main 
-git remote add origin http*****
-git push -u origin main отправить источник в ветку main
+git branch -M main : переименуем master>main
+git remote add origin https://github.com/VitaliyMakar/HomeWork.git :берем ссылку на репозиторий с github
+git push -u origin main :отправить источник в ветку main
