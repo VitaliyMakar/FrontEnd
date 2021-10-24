@@ -1,4 +1,4 @@
-GIT HUB new
+﻿GIT HUB
 
 git version
 Ctrg C : Cancelcd
@@ -17,18 +17,20 @@ git add имя файла/папки
 илиgit 
 git add . все папки
 
-git commit -m коммит с комментарий изменений
+git commit -m коммит с комментариями изменений
 git log
-git push
+git push :отправляем
 
 
 *****Создаем репозиторий на локально в папке*****
 
 создаем новы репозиторий на github
-git cd : заходим в папку, где будет репозиторий
+git cd :заходим в папку, где будет репозиторий
 git init :инициализация папки репозитория
 git add . все папки
 git commit -m "коммент"
-git branch -M main : переименуем master>main
+git branch -M main :переименуем master>main
 git remote add origin https://github.com/VitaliyMakar/HomeWork.git :берем ссылку на репозиторий с github
 git push -u origin main :отправить источник в ветку main
+
+git pull :забираем с github
